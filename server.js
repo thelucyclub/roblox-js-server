@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var Promise = require('bluebird');
 
 var app = express();
-var port = 8080;
+var port = 443;
 var key = process.env.key;
 var maximumRank = 255;
 
