@@ -239,6 +239,7 @@ app.post('/setRank/:group/:target/:rank', authenticate, function (req, res, next
   };
   var validate = [req.params];
   var opt = verifyParameters(res, validate, requiredFields);
+  console.log(opt);
   if (!opt) {
     return;
   }
